@@ -3,7 +3,7 @@ import { ICount } from "../models";
 
 export const Stars = ({ count }: { count: ICount }) => {
     if (count < 1 || count > 5) {
-        return null;
+        return <div className="errorDiv">You can choose only from 1 to 5 stars</div>
     }
 
     const StarArray = [];

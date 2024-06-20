@@ -1,4 +1,10 @@
 .card-body-stars {
   display: flex;
   list-style: none;
+  padding-left: 0;
+}
+
+.errorDiv {
+  margin: 16px 0;
+  height: 32px;
 }
